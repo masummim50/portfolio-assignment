@@ -42,22 +42,25 @@ section:after{
   font-size: 16px;
 }
 .name{
-  color:darkorange;
+  color:slateblue;
 }
 .half-width img{
   width:100%;
 }
+.half-width p{
+  margin-bottom:25px;
+}
 .linked-btn{
   text-decoration: none;
   color:white;
-  background-image:linear-gradient(90deg, tomato,orange);
+  background-image:linear-gradient(90deg, orange,tomato);
   padding:10px 25px;
   border-radius: 5px;
   font-weight: bold;
 }
 .project-header{
   margin-top:25px;
-  background-image:linear-gradient(90deg,transparent, tomato, transparent);
+  background-image:linear-gradient(90deg,transparent, rgb(175, 1, 126), transparent);
   width:100%;
   margin-bottom:25px;
   text-align: center;
@@ -108,7 +111,7 @@ section:after{
 }
 .left img{
   border-left:7px solid;
-  border-image: linear-gradient(180deg, red, yellow);
+  border-image: linear-gradient(180deg, purple, tomato);
   border-image-slice: 1;
 }
 .right img{
