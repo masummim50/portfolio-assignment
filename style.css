@@ -87,7 +87,16 @@ section:after{
   width:100%;
 }
 
-
+.certificate-header{
+  width:100%;
+  background-image:linear-gradient(90deg, purple, transparent);
+  text-align:left;
+}
+.certificate-header h4{
+  color:white;
+  padding:10px 0 10PX 6%;
+  font-size: 18px;
+}
 .certificate{
   float:left;
   width:35%;
@@ -145,6 +154,9 @@ footer{
 }
 footer p{
   font-size: 12px;
+}
+footer h4{
+  margin:5px 0;
 }
 footer ul{
   list-style-type: none;
