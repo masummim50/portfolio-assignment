@@ -1,6 +1,10 @@
 body{
   padding:0;
   margin:0;
+  font-family:Roboto;
+}
+h1, h2, h3{
+  font-family: 'Bebas Neue', cursive;
 }
 header ul{
   text-align: right;
@@ -20,6 +24,9 @@ section:after{
   display:table;
   clear:both;
 }
+.name{
+  color:tomato;
+}
 .half-width{
   float: left;
   width:40%;
@@ -27,8 +34,12 @@ section:after{
   margin-left:4%;
 }
 .half-width h1{
-  font-size: 50px;
-  line-height: 0.1;
+  font-size: 80px;
+  font-weight: 400;
+  line-height:0.1;
+}
+.half-width p{
+  font-size: 16px;
 }
 .name{
   color:darkorange;
@@ -46,32 +57,104 @@ section:after{
 }
 .project-header{
   margin-top:25px;
-  background-image:linear-gradient(90deg, darkorange, transparent);
+  background-image:linear-gradient(90deg,transparent, tomato, transparent);
   width:100%;
   margin-bottom:25px;
+  text-align: center;
 }
 .project-header h2{
-  padding:2% 5%;
+  padding:10px 0;
   color:white;
-  font-weight: bold;
+  font-weight: 300;
   margin:0;
+  font-size: 40px;
 }
 .project-header:after{
   content:'';
   display:table;
   clear:both;
 }
+.single-project{
+  float:left;
+  width:25%;
+  padding:%;
+  margin-left:6%;
+}
+.single-project p{
+  color:rgb(136, 136, 136);
+}
+.single-project img{
+  width:100%;
+}
+
+
+.certificate{
+  float:left;
+  width:35%;
+  margin-left:7%;
+  padding:1% 4%;
+}
+.right{
+  float:right;
+}
+.left img{
+  border-left:7px solid;
+  border-image: linear-gradient(180deg, red, yellow);
+  border-image-slice: 1;
+}
+.right img{
+  border-left:7px solid;
+  border-image:linear-gradient(180deg, purple, salmon);
+  border-image-slice: 1;
+}
+.certificate img{
+  width:80%;
+}
+
 .group-project{
   background-image: url("images/Group.png");
   margin:0 auto;
-  width:300px;
+  margin-top:100px;
+  width:600px;
+  height: 100px;
   background-size: cover;
   background-position:center;
   text-align: center;
   background-size: cover;
   border-radius: 10px;
+  padding:15px;
+  text-align: center;
 }
 .group-project h3{
   font-size: 30px;
-  padding:15px 0;
+  padding: 15px 0;
+  color: white;
+  float: left;
+  margin-top: 20px;
+  font-weight: 400;
+}
+.group-project a{
+  float:right;
+  margin-top:35px;
+}
+
+footer{
+  text-align: center;
+  margin:20px auto 20px auto;
+
+}
+footer p{
+  font-size: 12px;
+}
+footer ul{
+  list-style-type: none;
+  margin:0;
+  padding:0;
+}
+footer ul li{
+  display: inline-block;
+}
+footer ul li img{
+  width:20px;
+  height:20px;
 }
