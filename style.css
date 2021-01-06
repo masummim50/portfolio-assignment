@@ -129,7 +129,7 @@ section:after{
   width:80%;
 }
 /* inquiry */
-.work-inq{
+.work{
   background-image: url("images/Group.png");
   margin:0 auto;
   margin-top:100px;
@@ -143,7 +143,7 @@ section:after{
   padding:15px;
   text-align: center;
 }
-.work-inq h3{
+.work h3{
   font-size: 30px;
   padding: 15px 0;
   color: white;
@@ -151,7 +151,7 @@ section:after{
   margin-top: 20px;
   font-weight: 400;
 }
-.work-inq a{
+.work a{
   float:right;
   margin-top:35px;
 }
